@@ -1,0 +1,119 @@
+body{
+	background-color: #FFFFFF;
+	font-size: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/**
+---------------------------------SW Homepage---------------------------------
+**/
+
+#home-banner{
+	text-align: center;
+	margin: auto 0;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+#home-bannerImg{
+	width: 20%;
+}
+
+#home-triContainer{
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.home-triButton{
+	text-align: center;
+	margin: 10px;
+}
+
+#home-modelButtonImg{
+	width: 100%;
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	opacity: 0.9;
+}
+
+#home-modelButtonImg:hover{
+	opacity: 1;
+}
+
+#home-photoButtonImg{
+	width: 100%;
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	opacity: 0.9;		
+}
+
+#home-photoButtonImg:hover{
+	opacity: 1;
+}
+
+#home-bsrButtonImg{
+	width: 100%;
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	opacity: 0.9;	
+}
+
+#home-bsrButtonImg:hover{
+	opacity: 1;
+}
+
+#home-navContainer{
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+#home-blog{
+	padding: 0 20px;
+	border-left-style: solid;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px; 
+
+}
+
+.home-navButton{
+	padding: 0 20px;
+	border-left-style: solid;
+
+}
+
+#home-contact{
+	padding: 0 20px;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px; 
+}
+
+.home-navText{
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 0.8vw;
+	text-transform: uppercase;
+}
+
+a .home-navText{
+	color: #000000;
+}
+
+.home-navText:hover{
+	color: #aa0000;
+}
