@@ -7,6 +7,11 @@ a {
 	text-decoration: none;
 }
 
+@font-face{
+	font-family: 'steagisler';	
+	src: url('fonts/Steagisler.otf');
+}
+
 
 /**
 ---------------------------------SW Homepage---------------------------------
@@ -119,4 +124,68 @@ a .home-navText{
 
 .home-navText:hover{
 	color: #aa0000;
+}
+
+
+/**
+---------------------------------Model Works Homepage---------------------------------
+**/
+
+#mw-featuredContainer{
+	width: 40%;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 30px;
+	border-color: #CCCCCC;
+	background-color: white;
+}
+
+#mw-featuredContainer:hover{
+	border-color: black;
+}
+
+#mw-featuredText{
+	font-family: steagisler;
+	font-size: 1.5vw;
+	text-transform: uppercase;
+}
+
+a #mw-featuredText{
+	color: #4a4a4a;
+}
+
+#mw-jumbotron{
+	text-align: center;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 5px;
+	padding: 15px;
+	background-color: #BBBBBB;
+}
+
+#mw-jumboIMG{
+	width: 80%;
+}
+
+#mw-featTitle{
+	font-family: steagisler;
+	font-size: 1.2vw;
+	text-transform: uppercase;
+	padding-top: 10px;	
+}
+
+a #mw-featTitle{
+	color: #4a4a4a;
+}
+
+#mw-featBlurb{
+	font-family: helvetica;
+	font-size: 0.8vw;
+}
+
+a #mw-featBlurb{
+	color: #4a4a4a;
 }

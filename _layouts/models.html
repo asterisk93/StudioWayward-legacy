@@ -1,3 +1,54 @@
 ---
 layout: wrapper
 ---
+
+
+{% for post in site.posts %}
+	{% if post.type contains "model" and post.folder contains page.featured %}
+		<div id="mw-featuredContainer">
+			<a href="">
+				<div id="mw-featuredText">
+					<span>Featured Project:</span>
+				</div>
+
+				<div id="mw-jumbotron">
+					<img id="mw-jumboIMG" src="{{site.baseurl}}/assets/images/models/{{page.featured}}/animate.gif">	
+				</div>
+
+				<div id="mw-featTitle">
+					<span>{{ post.title }}</span>
+				</div>
+
+				<div id="mw-featBlurb">
+					<span>{{ post.content }}</span>
+				</div>
+
+			</a>
+		</div>
+	{% endif %}
+{% endfor %}
+
+<div id="mw-gallery">
+	
+	<div id="mw-galleryHeading">
+		<span></span>
+	</div>
+
+	<div id="mw-galleryContainer">
+		
+		<div class="mw-galleryItem">
+			
+			<a href="">
+				<div class="mw-itemPreview">
+					<img src="">
+				</div>
+
+				<div class="mw-itemTitle">
+					<span></span>
+				</div>
+			</a>
+
+		</div>
+
+	</div>
+</div>
