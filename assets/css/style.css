@@ -131,9 +131,18 @@ a .home-navText{
 ---------------------------------Model Works Homepage---------------------------------
 **/
 
-#mw-featuredContainer{
-	width: 40%;
+#mw-container{
+	width: 90%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
 	margin: 0 auto;
+}
+
+#mw-featuredContainer{
+	width: 50%;
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 5px;
@@ -149,7 +158,7 @@ a .home-navText{
 
 #mw-featuredText{
 	font-family: steagisler;
-	font-size: 1.5vw;
+	font-size: 1.7vw;
 	text-transform: uppercase;
 }
 
@@ -187,5 +196,68 @@ a #mw-featTitle{
 }
 
 a #mw-featBlurb{
+	color: #4a4a4a;
+}
+
+#mw-gallery{
+	width: 40%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 30px;
+	border-color: #CCCCCC;
+	background-color: white;
+	margin-left: 30px;
+}
+
+#mw-galleryHeading{
+	font-family: steagisler;
+	font-size: 1.5vw;
+	text-transform: uppercase;
+	color: #4a4a4a;	
+}
+
+#mw-galleryContainer{
+	text-align: center;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 5px;
+	padding: 15px;
+	background-color: #BBBBBB;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+
+.mw-galleryItem{
+	text-align: center;
+	width: 40%;
+	padding: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #BBBBBB;
+	border-radius: 5px;
+	background-color: white;
+	margin: 15px;
+}
+
+.mw-galleryItem:hover{
+	border-color: black;
+}
+
+.mw-itemPreview{
+	width: 90%;
+}
+
+.mw-itemTitle{
+	font-family: steagisler;
+	font-size: 1vw;
+	text-transform: uppercase;
+	padding-top: 5px;
+}
+
+a .mw-itemTitle{
 	color: #4a4a4a;
 }
