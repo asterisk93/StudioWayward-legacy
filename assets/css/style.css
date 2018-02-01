@@ -190,6 +190,17 @@ a #mw-featTitle{
 	color: #4a4a4a;
 }
 
+#mw-featScale{
+	font-family: steagisler;
+	font-size: 1.0vw;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+a #mw-featScale{
+	color: #4a4a4a;	
+}
+
 #mw-featBlurb{
 	font-family: helvetica;
 	font-size: 0.8vw;
